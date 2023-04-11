@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");;
+    background-repeat: no-repeat,no-repeat;
+    background-position:  -200px -300px, 900px 400px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.gray{
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
+.tw{
+    padding-left: 10px;
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+}
+.name{
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+.card{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+
+}
+.avatar{
+    margin-top: -150px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.top{
+    
+    width:400px;
+    height: 300px;
+    border-radius: 15px 15px 0 0 ;
+}
+.bg{
+    border-radius: 15px 15px 0 0 ;
+    width: 400px;
+    height: 150px;
+}
+.victor{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+.line{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 400px;
+    height: 1px;
+    background: hsl(0, 0%, 59%);
+    opacity: 0,1;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.last{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bot{
+    margin-top: -100px;
+    width: 400px;
+    height: 300px; 
+    background-color: white;
+    border-radius: 0 0 15px 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* My info */
+.kudzuya{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.kudzuya a {
+    color: white;
+    font-size: 20px;
+    transition: 0.5;
+}
+
+.kudzuya a:hover {
+    text-decoration: underline;
+}
+a:link {
+    text-decoration: none;
+}
+/* My info ends*/
